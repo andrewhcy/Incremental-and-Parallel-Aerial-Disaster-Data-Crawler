@@ -1,0 +1,2 @@
+Crawler Type,Parallel Method,Workers,Decay Coefficient,Inheritance Coefficient,Time,Total Images,Total Scraped
+Incremental,Threading,8,0.9,0.1,0,0,0
