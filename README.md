@@ -39,7 +39,7 @@ The Image Classifier is run without any arguements
 Implementation/res/Generate Image Classifier/ Working Directory
 python ImageClassifier.py
 
-Note
+NOTE
 ================================================================================================================================================================================================================================
 No image data used in this project is imported on github due to filesize.
 
