@@ -12,6 +12,7 @@ FILE CONTENTS
 INTRODUCTION
 ================================================================================================================================================================================================================================
 A web crawler that efficiently gathers raw aerial drone data of disaster sites available within the world wide web to be coalesced in a dataset that can be used to train AI for disaster response activities.
+
 REQUIREMENTS
 ================================================================================================================================================================================================================================
 beautifulsoup4==4.10.0
@@ -28,7 +29,6 @@ tensorflow_intel==2.12.0
 tqdm==4.64.1
 urllib3==1.26.8
 
-
 USAGE
 ================================================================================================================================================================================================================================
 Implementation Working Directory
@@ -39,9 +39,13 @@ The Image Classifier is run without any arguements
 Implementation/res/Generate Image Classifier/ Working Directory
 python ImageClassifier.py
 
+Note
+================================================================================================================================================================================================================================
+No image data used in this project is imported on github due to filesize.
+
 KNOWN ISSUES
 ================================================================================================================================================================================================================================
-Corrupt JPEG data: error messages from opening scraped images are printed to the terminal and are uncatchable since libjpeg error handling is not overwritten. This cannot be fixed unless specific parameters in the OpenCV package are manually edited. However, this issue has no detrimental effects on the program
+Corrupt JPEG data: error messages from opening scraped images are printed to the terminal and are uncatchable since libjpeg error handling is not overwritten. This cannot be fixed unless specific parameters in the OpenCV package are manually edited. However, this issue has no detrimental effects on the program.
 
 DETAILS
 ================================================================================================================================================================================================================================
